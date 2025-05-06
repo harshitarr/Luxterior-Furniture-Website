@@ -35,7 +35,7 @@ Luxterior is a modern, responsive interior design website built using **Next.js*
 
 ```bash
 git clone https://github.com/harshitarr/Luxterior-Furniture-Website.git
-cd luxterior
+cd Luxterior-Furniture-Website
 ```
 
 ## 2. Install dependencies
@@ -54,10 +54,10 @@ npm run dev
 
 
 ## 📧 Features
--Fully responsive layout
--Reusable modular components
--Optimized structure for scalability
--Newsletter subscription form UI
+- Fully responsive layout
+- Reusable modular components
+- Optimized structure for scalability
+- Newsletter subscription form UI
 
 __Note: Email functionality is UI-only at this stage. Backend integration is planned.__
 
