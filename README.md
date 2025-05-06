@@ -7,7 +7,7 @@ Luxterior is a modern, responsive interior design website built using **Next.js*
 > Coming soon...
 
 ## 📂 Project Structure
-
+```bash
 /app
 ├── page.jsx # Main page rendering all components
 /components
@@ -23,7 +23,7 @@ Luxterior is a modern, responsive interior design website built using **Next.js*
 └── images/ # All static assets used in the site
 /styles
 └── globals.css
-
+```
 ## 🛠️ Built With
 
 - [Next.js](https://nextjs.org/) – React Framework
