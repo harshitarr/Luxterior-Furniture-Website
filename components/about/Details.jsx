@@ -13,7 +13,7 @@ export default function Details() {
           </div>
 
           <div className="max-w-xl">
-            <h2 className="text-5xl font-bold text-[#283c49] mb-10">
+            <h2 className="text-5xl font-bold text-[#283c49] mb-10 leading-tight">
               Carefully Considered Details & Perfections
             </h2>
             <p className="text-gray-700 leading-relaxed">
@@ -32,7 +32,7 @@ export default function Details() {
         <div className="flex flex-col md:flex-row items-center gap-10 max-w-7xl mx-auto">
           
         <div className="max-w-xl py-50">
-            <h2 className="text-5xl font-bold text-[#283c49] mb-10">
+            <h2 className="text-5xl font-bold text-[#283c49] mb-10 leading-tight">
               Crafted in Combination of beauty Perfections
             </h2>
             <p className="text-gray-700 leading-relaxed">
