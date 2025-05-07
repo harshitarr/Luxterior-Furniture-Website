@@ -8,26 +8,59 @@ Luxterior is a modern, responsive interior design website built using **Next.js*
 
 ## 📂 Project Structure
 ```bash
+## 📂 Project Structure
+```bash
 /app
-├── page.jsx # Main page rendering all components
+├── about/page.js               # About Us page
+├── Contactus/page.js           # Contact Us page
+├── Features/page.js            # Features page
+├── api/
+│   ├── sendmail/route.js       # API for Contact Us form using Nodemailer
+│   └── subscribe/route.js      # API for newsletter subscription using Nodemailer
+├── layout.js                   # Layout file for app
+├── page.js                     # Main Home page
+
 /components
-├── Navbar.jsx
-├── Hero.jsx
+├── about/
+│   ├── Details.jsx
+│   ├── Hero.jsx
+│   └── Overview.jsx
+├── Contactus/
+│   └── ContactUs.jsx
+├── Features/
+│   ├── Fourseater.jsx
+│   ├── Hero.jsx
+│   └── Topcategories.jsx
 ├── Benefits.jsx
 ├── Experience.jsx
-├── Process.jsx
-├── Testimonials.jsx
-├── Newsletter.jsx
 ├── Footer.jsx
+├── Hero.jsx
+├── Navbar.jsx
+├── Process.jsx
+├── Subscribe.jsx
+├── Testimonials.jsx
+
 /public
-└── images/ # All static assets used in the site
+└── images/                     # Static assets
+
 /styles
 └── globals.css
 ```
 ## 🛠️ Built With
 
-- [Next.js](https://nextjs.org/) – React Framework
-- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- [Next.js](https://nextjs.org/) – React Framework  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework  
+- [Nodemailer](https://nodemailer.com/about/) – For email handling in forms
+
+
+## 📧 Features
+- Fully responsive layout
+- Four main pages: Home, About Us, Features, Contact Us
+- Reusable modular components for scalability
+- Newsletter Subscription (Home page) — powered by Nodemailer
+- Contact Us Form — sends emails using Nodemailer
+- Clean project structure with proper separation of concerns
+
 
 ## 📦 Getting Started
 
@@ -43,7 +76,13 @@ cd Luxterior-Furniture-Website
 npm install
 ```
 
-## 3. Run the development server
+## 3. Create .env.local and add the following:
+```bash
+EMAIL_USER=your_email@example.com
+EMAIL_PASS=your_email_password_or_app_password
+```
+
+## 4. Run the development server
 ```bash
 npm run dev
 ```
@@ -53,13 +92,9 @@ npm run dev
 📸 Screenshots
 
 
-## 📧 Features
-- Fully responsive layout
-- Reusable modular components
-- Optimized structure for scalability
-- Newsletter subscription form UI
 
-__Note: Email functionality is UI-only at this stage. Backend integration is planned.__
+
+
 
 
 ## 📄 License
