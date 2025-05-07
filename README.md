@@ -6,12 +6,6 @@ Luxterior is a modern, responsive interior design website built using **Next.js*
 
 > Coming soon...
 
-## 🎦 Demo Video
- [Watch Demo Video](https://github.com/harshitarr/Luxterior-Furniture-Website/blob/main/public/images/record.mp4)
-
-
-## 📂 Project Structure
-```bash
 ## 📂 Project Structure
 ```bash
 /app
