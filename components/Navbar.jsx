@@ -6,10 +6,10 @@ export default function Navbar() {
              
              <h1 className="text-2xl font-bold"> Luxterior</h1>
              <nav className="space-x-6 text-[#283c49]">
-                <a href="#">Home</a>
-                <a href="#">About US</a>
-                <a href="#">Features</a>
-                <a href='#'>Contact Us</a>
+                <a href="/">Home</a>
+                <a href="/about">About US</a>
+                <a href="/Features">Features</a>
+                <a href='/Contactus'>Contact Us</a>
              </nav>
 
         </header>
