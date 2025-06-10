@@ -4,7 +4,7 @@ Luxterior is a modern, responsive interior design website built using **Next.js*
 
 ## 🚀 Live Demo
 
-> Coming soon...
+[Luxterior-website](https://luxterior-furniture-website.vercel.app/)
 
 ## 📂 Project Structure
 ```bash
