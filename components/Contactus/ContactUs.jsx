@@ -78,7 +78,7 @@ const ContactUs = () => {
 
             <div className='w-[45%] p-4 bg-white flex flex-col justify-center items-center rounded-l-lg'>
                
-               <img src='images/contactus.svg' alt='Contactimg' width={300} className='mb-4'/>
+               <img src='images/Contactus.svg' alt='Contactimg' width={300} className='mb-4'/>
                 
             </div>
 
